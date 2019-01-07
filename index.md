@@ -1,3 +1,16 @@
+...概要説明...
+
+## 展示内容
+
+### ころとろ
+### 旅するエンジニア
+### ときさば
+### ギークハウス岩手大船渡
+### kbaba1001
+
+## スケジュール
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kbaba1001/geek-carnival/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
