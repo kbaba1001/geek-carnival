@@ -1,5 +1,9 @@
+# config
 theme: jekyll-theme-cayman
 show_downloads: false
+github:
+  is_project_page: false
 
+# meta data
 title: "ギー祭"
 description: "ときさば系ギークハウス合同展示(2018.2.3 〜 2018.2.16)"
