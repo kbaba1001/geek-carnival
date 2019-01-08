@@ -1,4 +1,6 @@
-![poster](images/poster.jpg)
+<div class="text-centor">
+  <img src="/images/poster.jpg" alt="poster">
+</div>
 
 ...概要説明...
 
