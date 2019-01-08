@@ -1,3 +1,5 @@
+![poster](images/poster.jpg)
+
 ...概要説明...
 
 ## 展示内容
