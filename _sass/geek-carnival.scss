@@ -2,3 +2,16 @@
 @import "typography";
 @import "menu";
 
+body {
+  background-color: #155799;
+  background-image: linear-gradient(#991545, #155799);
+}
+
+.header-background {
+  text-align: center;
+  color: #fff;
+}
+
+.main-content {
+  background-color: white;
+}
