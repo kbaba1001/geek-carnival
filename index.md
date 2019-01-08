@@ -1,4 +1,4 @@
-<div class="text-centor">
+<div class="text-center">
   <img src="/images/poster.jpg" alt="poster">
 </div>
 
