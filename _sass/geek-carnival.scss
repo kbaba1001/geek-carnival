@@ -3,15 +3,53 @@
 @import "menu";
 
 body {
-  background-color: #155799;
-  background-image: linear-gradient(#991545, #155799);
+  @include media-pc {
+    background-color: #155799;
+    background-image: linear-gradient(#991545, #155799);
+  }
 }
 
 .header-background {
   text-align: center;
   color: #fff;
+  @include media-sp {
+    background-color: #155799;
+    background-image: linear-gradient(120deg, #991545, #155799);
+  }
 }
 
 .main-content {
   background-color: white;
+}
+
+.header-title {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include media-pc {
+    font-size: 3.25rem;
+  }
+  @include media-sp {
+    font-size: 1.75rem;
+  }
+}
+
+.header-subtitle {
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include media-pc {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  @include media-sp {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+.main-content {
+  @include media-sp {
+    padding: 1rem 1rem;
+  }
 }
