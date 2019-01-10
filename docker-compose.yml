@@ -1,0 +1,13 @@
+ruby:
+  build: .
+  command: bundle exec irb
+  volumes:
+    - .:/geek-carnival
+  volumes_from:
+    - datastore
+  ports:
+    - "4000:4000"
+datastore:
+  image: geek-carnival_ruby
+  volumes:
+    - /bundle
